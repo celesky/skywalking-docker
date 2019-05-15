@@ -21,8 +21,8 @@ services:
     container_name: elasticsearch
     restart: always
     ports:
-      - 9200:9200
-      - 9300:9300
+      - 9210:9200
+      - 9310:9300
     environment:
       discovery.type: single-node
   oap:
